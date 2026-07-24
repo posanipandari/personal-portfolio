@@ -8,7 +8,7 @@ toggleBtn.addEventListener('click', () => {
 
 // Animated typing effect
 const typedText = document.getElementById('typed');
-const textToType = "Vivek Kotagiri";
+const textToType = "Posani Pandari";
 let index = 0;
 
 function type() {
@@ -89,7 +89,7 @@ document.getElementById('downloadResumeBtn').addEventListener('click', () => {
   // If your resume PDF is named 'Vivek Resume.pdf' and placed in the same folder,
   // this will trigger the download.
   const link = document.createElement('a');
-  link.href = 'Vivek Resume.pdf';
+  link.href = 'Pandari.pdf';
   link.download = 'Vivek Resume.pdf';
   document.body.appendChild(link);
   link.click();
