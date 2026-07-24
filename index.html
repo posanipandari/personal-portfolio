@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<head>
+  <title>Posani Pandari | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="profile.css" />
+  <script defer src="profile.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar glass-navbar">
+    <div class="container">
+      <h1 class="logo">Pandari's Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificationcourses">Certification</a></li>
+        <li><a href="#achievementsandawards">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="toggle-dark" aria-label="Toggle Dark Mode">🌙</button></li>
+      </ul>
+    </div>
+</nav>
+
+
+
+
+
+  <!-- <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Pandari's Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificationcourses">Certification</a></li>
+        <li><a href="#achievementsandawards">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="toggle-dark" aria-label="Toggle Dark Mode">🌙</button></li>
+      </ul>
+    </div>
+  </nav> -->
+  <header class="hero container" id="home">
+    <div class="hero-text">
+      <h2>Hello, I'm <span id="typed"></span></h2>
+      <p> Data Analyst | Software Engineer | BTech Graduate (CSE)</p>
+      <a href="Pandari.pdf" download class="btn">Download Resume</a>
+      <div class="social-icons">
+        <a href="https://github.com/posanipandari" target="_blank" aria-label="GitHub"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" /></a>
+        <a href="https://linkedin.com/in/posani-pandari-b4b7b6330/" target="_blank" aria-label="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" /></a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="Image.jpg" alt="Posani Pandari" />
+    </div>
+  </header>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+     I'm a Computer Science Engineering graduate with strong knowledge in Python, SQL, Excel, Power BI and Data Analytics.
+
+     I enjoy solving real-world problems using programming and continuously improve my skills through projects and internships.
+
+    </p>
+    </section>
+
+    <section id="education" class="container">
+      <h2>Education</h2>
+      <h4>Malla Reddy College of Engineering(MRCE) ---2021-2025</h4>
+      <p>B.Tech graduate in Computer Science Engineering with a CGPA of 6.49 </p>
+      <h4>MJPTBCW Residential Junior College(B) ---2019-2021</h4>
+      <p>Successfully completed secondary education with a percentage of 81.8% </p>
+      <h4>ZPHS High School ---2019</h4>
+      <p>Successfully completed primary education with a CGPA of 9.0 </p>
+  </section>
+
+
+ <!-- SKILLS (Glass Cards) -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+      <!-- PYTHON -->
+       <div class="skill-card glass" data-percent="90">
+        <div class="skill-top">
+          <div class="skill-icon"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python"></div>
+          <div>
+            <div class="skill-name">Python</div>
+            <div class="skill-sub">Scripting & ML basics</div>
+          </div>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-bar">
+            <div class="progress-fill fill-python" data-target="60"></div>
+          </div>
+        </div>
+        <div class="skill-caption">Kaggle practice, data handling</div>
+      </div>
+     
+      <!-- HTML -->
+      <div class="skill-card glass" data-percent="95">
+        <div class="skill-top">
+          <div class="skill-icon"><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML"></div>
+          <div>
+            <div class="skill-name">HTML</div>
+            <div class="skill-sub">Semantic Markup & Accessibility</div>
+          </div>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-bar">
+            <div class="progress-fill fill-html" data-target="95"></div>
+          </div>
+        </div>
+        <div class="skill-caption">Responsive layouts, forms & SEO friendly markup</div>
+      </div>
+
+      <!-- CSS -->
+      <div class="skill-card glass" data-percent="85">
+        <div class="skill-top">
+          <div class="skill-icon"><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS"></div>
+          <div>
+            <div class="skill-name">CSS</div>
+            <div class="skill-sub">Styling & Layouts</div>
+          </div>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-bar">
+            <div class="progress-fill fill-css" data-target="85"></div>
+          </div>
+        </div>
+        <div class="skill-caption">Flexbox, Grid, animations and responsive design</div>
+      </div>
+
+      <!-- MySQL -->
+      <div class="skill-card glass" data-percent="75">
+        <div class="skill-top">
+          <div class="skill-icon"><img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="MySQL"></div>
+          <div>
+            <div class="skill-name">MySQL</div>
+            <div class="skill-sub">Database Fundamentals</div>
+          </div>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-bar">
+            <div class="progress-fill fill-mysql" data-target="75"></div>
+          </div>
+        </div>
+        <div class="skill-caption">Queries, joins, basic DB design</div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <!-- <section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="skill">
+      <h3>Java</h3>
+      <div class="skill-bar">
+        <div class="skill-level java"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>HTML</h3>
+      <div class="skill-bar">
+        <div class="skill-level html"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>CSS</h3>
+      <div class="skill-bar">
+        <div class="skill-level css"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>JavaScript</h3>
+      <div class="skill-bar">
+        <div class="skill-level js"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>Python</h3>
+      <div class="skill-bar">
+        <div class="skill-level python"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>My SQL</h3>
+      <div class="skill-bar">
+        <div class="skill-level mysql"></div>
+      </div>
+    </div>
+  </section> -->
+
+
+
+  
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>AI-Based Robbery Behavior Prediction.</h3>
+        <p>Built an AI model to predict robbery behavior using Machine Learning techniques.</p>
+      </div>
+      <div class="project-card">
+        <h3>Traffic Sign Detection.</h3>
+        <p>Neural Network-based Traffic Sign Detection for Indian Road Conditions.</p>
+      </div>
+      <div class="project-card">
+        <h3>Google Play Store Analysis.</h3>
+        <p>Performed data cleaning, visualization and dashboard creation using Python.</p>
+      </div>
+      <div class="project-card">
+        <h3>Sales Data Dashboard.</h3>
+        <p>Analyzed sales data using Pandas, Excel and Matplotlib.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificationcourses" class="container">
+    <h2>Certification Courses</h2>
+     <p>Explore my achievements and recognitions in 3D!</p>
+  <a href="3D.html" target="_blank" class="btn">🎓 Explore in 3D</a>
+    <ul class="list">
+      <li>HTML,CSS from Bit labs </li>
+      <li>Python from Cisco </li>
+      <li>Python Data Structures from Great learning</li>
+      <li>Advanced SQL programming from Mind luster </li>
+      <li>Excel,SQL from Cisco</li>
+      <li>Data Analysis from Cisco </li>
+      <li>Data Analytics Internship - ElevanceSkills</li>
+      <li>Machine Learning Basics</li>
+      <li>Foundations of Cybersecurity from Google </li>
+    </ul>
+    </section>
+
+    <section id="achievementsandawards" class="container">
+      <h2>Achievements and Awards </h2>
+      <ul class="list">
+        <li>Developed multiple real-world data analytics and AI-based academic projects.</li>
+        <li>Strong understanding of data visualization and business analytics concepts.</li>
+         <li> Continuously improving technical and communication skills through self-learning and hands-on practice.</li>
+      </ul>
+    </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Me</h2>
+    <p>Ph no: 8688792747</p>
+    <p>Email: <a href="mailto:posanipandari7@gmail.com">posanipandari7@gmail.com</a></p>
+    <p>LinkedIn: <a href="www.linkedin.com/in/pandari7-b4b7b6330/" target="_blank">www.linkedin.com/in/pandari7</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Posani Pandari. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
