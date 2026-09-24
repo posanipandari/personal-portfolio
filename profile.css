@@ -450,7 +450,9 @@ background: linear-gradient(125deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%
     .fill-js{ background: linear-gradient(90deg,#f7df1e,#f0c419); width:0; color:#111}
     .fill-python{ background: linear-gradient(90deg,#2b77b5,#306998); width:0 }
     .fill-mysql{ background: linear-gradient(90deg,#0ea5a4,#065f46); width:0 }
-    .fill-FastAPI{ background: linear-gradient(90deg,#0ea5a4,#065f46); width:0 }
+    .fill-fastapi {background: linear-gradient(90deg, #009688, #00bfa5);width:0 }
+    .fill-javascript {background: linear-gradient(90deg, #f7df1e, #f0c419);width:0 }
+    .fill-restapi {background: linear-gradient(90deg, #8b5cf6, #6366f1);width:0 }
 
     /* animated shimmering overlay */
     .skill-card::after{
